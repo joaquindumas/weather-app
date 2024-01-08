@@ -76,7 +76,7 @@ class _LocationScreenState extends State<LocationScreen> {
                     child: const Icon(
                       Icons.near_me,
                       size: 50.0,
-                      color: Colors.lightBlue
+                      color: Colors.teal
                     ),
                   ),
                   TextButton(
@@ -94,7 +94,7 @@ class _LocationScreenState extends State<LocationScreen> {
                     child: const Icon(
                       Icons.location_city,
                       size: 50.0,
-                      color: Colors.green
+                      color: Colors.teal
                     ),
                   ),
                 ],

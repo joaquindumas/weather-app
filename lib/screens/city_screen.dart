@@ -31,6 +31,7 @@ class _CityScreenState extends State<CityScreen> {
                   child: const Icon(
                     Icons.arrow_back_ios,
                     size: 50.0,
+                    color:Colors.teal
                   ),
                 ),
               ),
@@ -44,7 +45,7 @@ class _CityScreenState extends State<CityScreen> {
                   decoration: const InputDecoration(
                       filled: true,
                       fillColor: Colors.white,
-                      icon: Icon(Icons.location_city, color: Colors.white),
+                      icon: Icon(Icons.location_city, color: Colors.teal),
                       hintText: "Enter your city",
                       hintStyle: TextStyle(color: Colors.grey),
                       border: OutlineInputBorder(
